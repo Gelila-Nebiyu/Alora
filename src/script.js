@@ -112,3 +112,15 @@ function handleAddToCart(event, data) {
 }
 
 //handle customer information
+document.addEventListener("DOMContentLoaded", function () {
+    const chatbotButton = document.getElementById("chatbot-btn");
+
+    // Event listener for the chatbot button
+    chatbotButton.addEventListener("click", function () {
+        // Replace this with any action you want to perform when the button is clicked
+        console.log("Chatbot button clicked!");
+
+        // Example: You can show a modal or perform other actions here
+        alert("Chatbot feature is coming soon!");
+    });
+});

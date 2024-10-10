@@ -58,33 +58,33 @@ h1{
 #shop{
     font-size: 48px;
     text-align: center;
-    color:#5B4327;
+    color:#0b4f10;
 }
 .price, .name{
-    color:#5B4327 !important;
+    color:#0b4f10 !important;
     font-size: 26px !important;
 }
 .buy-btn{
     background-color: white;
     padding:10px 30px;
     border-radius:100px;
-    color: #5B4327;
+    color: #0b4f10;
     font-size: 16px;
 }
 .cart-btn{
-    background-color: #5B4327;
+    background-color: #0b4f10;
     color: white;
     padding:10px 30px;
     border-radius:100px;
     font-size: 16px;
 }
 .cart-btn:hover{
-    background-color:#ffffff20;
-    color:#5B4327;
+    background-color:#85d58a;
+    color:#0b4f10;
 }
 .btn:hover{
     color: white !important;
-    background-color:#5B4327 !important;
+    background-color:#0b4f10 !important;
 }
 a{
     color:white;
@@ -94,8 +94,8 @@ a{
     background-color: white;
     padding:10px 30px;
     border-radius:100px;
-    border-color:#5B4327 !important;
-    color: #5B4327 !important;
+    border-color:#053b08 !important;
+    color: #82c071 !important;
     font-size: 16px;
 }
 @media (max-width: 960px) {
@@ -150,7 +150,7 @@ a{
   bottom: 20px;
   right: 20px;
   background-color: white;
-  color: #5B4327;
+  color: #6aa059;
   border: none;
   padding:10px 30px;
   border-radius:100px;
@@ -159,3 +159,19 @@ a{
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.chatbot-button {
+  position: fixed; 
+  bottom: 20px;    
+  right: 20px;    
+  z-index: 1000;  
+}
+
+
+/* Styling for the contact form */
+#contact-form {
+  margin-top: 20px;
+}
+
+#contact-form .form-control {
+  margin-bottom: 15px;
+}
